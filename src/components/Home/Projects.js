@@ -17,8 +17,9 @@ const Projects = () => {
         </p>
       </div>
       {/* card */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center">
-        <div class="card card-compact w-96 bg-base-100 shadow-xl">
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32 mx-16 mt-10">
+        <div class="card card-compact bg-base-100 shadow-xl border-2 border-red-500">
           <figure>
             <img src={alphaTools} alt="Shoes" />
           </figure>
@@ -30,7 +31,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div class="card card-compact w-96 bg-base-100 shadow-xl">
+        <div class="card card-compact bg-base-100 shadow-xl border-2 border-red-500 ">
           <figure>
             <img src={pcWorld} alt="Shoes" />
           </figure>
@@ -42,7 +43,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div class="card card-compact w-96 bg-base-100 shadow-xl">
+        <div class="card card-compact bg-base-100 shadow-xl border-2 border-red-500 ">
           <figure>
             <img src={proTrainer} alt="Shoes" />
           </figure>
