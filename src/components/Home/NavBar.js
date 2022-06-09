@@ -1,15 +1,28 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import { HashLink } from "react-router-hash-link";
+import { NavHashLink } from "react-router-hash-link";
 const NavBar = () => {
   return (
-    <div className="navbar bg-accent">
+    <div className="navbar bg-accent fixed  z-20">
       <div className="navbar-start">{/* Dropdown for Mobile */}</div>
       {/* Navbar for large device */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <HashLink smooth to="#home">
+              Home
+            </HashLink>
+          </li>
+          <li>
+            <HashLink smooth to="/#projects">
+              Projects
+            </HashLink>
+          </li>
+          <li>
+            <HashLink to="/#contact" smooth>
+              Contact Me
+            </HashLink>
           </li>
         </ul>
       </div>
@@ -37,7 +50,17 @@ const NavBar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52"
           >
             <li>
-              <NavLink to="/">Home</NavLink>
+              <HashLink to="#home">Home</HashLink>
+            </li>
+            <li>
+              <HashLink smooth to="/#projects">
+                Projects
+              </HashLink>
+            </li>
+            <li>
+              <HashLink to="/#contact" smooth>
+                Contact Me
+              </HashLink>
             </li>
           </ul>
         </div>

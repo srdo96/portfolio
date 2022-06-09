@@ -32,7 +32,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div class="hero min-h-screen">
+    <div class="hero min-h-screen pt-16" id="contact">
       <div class="hero-content flex-col lg:flex-row-reverse">
         <div class="text-center lg:text-left">
           <h1 class="text-5xl font-bold text-purple-700">Send me a message!</h1>
