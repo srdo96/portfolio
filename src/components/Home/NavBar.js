@@ -10,7 +10,7 @@ const NavBar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
           <li>
-            <HashLink smooth to="#home">
+            <HashLink smooth to="/#home">
               Home
             </HashLink>
           </li>
@@ -50,7 +50,7 @@ const NavBar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52"
           >
             <li>
-              <HashLink to="#home">Home</HashLink>
+              <HashLink to="/#home">Home</HashLink>
             </li>
             <li>
               <HashLink smooth to="/#projects">

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import alphaTools from "../../assets/projectsImg/alphaTools.png";
 import pcWorld from "../../assets/projectsImg/pcWorld.png";
 import proTrainer from "../../assets/projectsImg/proTrainer.png";
@@ -17,7 +18,7 @@ const Projects = () => {
         </p>
       </div>
       {/* card */}
-
+      {/* alphaTools */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32 mx-16 mt-10">
         <div class="card card-compact bg-base-100 shadow-xl border-2 border-red-500">
           <figure>
@@ -27,10 +28,13 @@ const Projects = () => {
             <h2 class="card-title">Alpha Tools</h2>
             <p>Manufacturer Website</p>
             <div class="card-actions">
-              <button class="btn btn-primary">Details</button>
+              <Link to="/project/1" class="btn btn-primary">
+                Details
+              </Link>
             </div>
           </div>
         </div>
+        {/* pcWorld */}
         <div class="card card-compact bg-base-100 shadow-xl border-2 border-red-500 ">
           <figure>
             <img src={pcWorld} alt="Shoes" />
@@ -39,10 +43,13 @@ const Projects = () => {
             <h2 class="card-title">PC World</h2>
             <p>Warehouse Management</p>
             <div class="card-actions">
-              <button class="btn btn-primary">Details</button>
+              <Link to="/project/2" class="btn btn-primary">
+                Details
+              </Link>
             </div>
           </div>
         </div>
+        {/* proTrainer */}
         <div class="card card-compact bg-base-100 shadow-xl border-2 border-red-500 ">
           <figure>
             <img src={proTrainer} alt="Shoes" />
@@ -51,7 +58,9 @@ const Projects = () => {
             <h2 class="card-title">Pro Trainer</h2>
             <p>Manufacturer Website</p>
             <div class="card-actions">
-              <button class="btn btn-primary">Details</button>
+              <Link to="/project/3" class="btn btn-primary">
+                Details
+              </Link>
             </div>
           </div>
         </div>

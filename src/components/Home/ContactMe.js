@@ -10,8 +10,10 @@ const ContactMe = () => {
     reset,
     formState: { errors },
   } = useForm();
+
   const sendEmail = (formData) => {
-    console.log(formData);
+    // console.log(formData);
+
     emailjs
       .send(
         "service_i8gss9b",
@@ -122,7 +124,7 @@ const ContactMe = () => {
                 )}
               </label>
               <button type="submit" className="btn btn-primary btn-block mt-5">
-                Submit
+                Send
               </button>
             </form>
           </div>

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "img": ["https://i.ibb.co/LzQR5wY/Alpha-Tools.png"],
+    "title": "Alpha Tools",
+    "func": [
+      "Implemented user interface using React and Tailwind CSS",
+      "Built login system for authorization and authentication",
+      "Implemented Stripe payment gateway to purchase products",
+      "Implemented Add Product section for admin to add new product",
+      "In Manage Orders section built a system so that admin update pending orders to shipped",
+      "Implemented My Profile section both user and admin to update their profile",
+      "Add Dashboard where user can add review and also can see their orders"
+    ],
+    "type": "Manufacturer Website",
+    "desc": "It is a manufacturer's website. Where manufacturers can add or remove their products. Can confirm customer payment. And the customer can also buy products and pay.",
+    "live": "https://alpha-tools-c9d53.web.app/",
+    "client": "https://github.com/srdo96/manufacturer-website-client-side",
+    "server": "https://github.com/srdo96/manufacturer-website-server-side"
+  },
+  {
+    "id": 2,
+    "img": ["https://i.ibb.co/9thttX5/Pc-World.png"],
+    "title": "PC World",
+    "func": [
+      "Built login system for authentication",
+      "Implemented a simple dashboard where top 3 items will be shown",
+      "For Delivered and Re-Stock products quantity will update instantly and notify it with toaster",
+      "Implement analytics route where products price, quantity, sold data wil be shown in chart",
+      "Implemented table to show only login user's data in My Items",
+      "Require auth. To show and do CRUD operation must need to login in"
+    ],
+    "type": "Warehouse Management",
+    "desc": "It is a warehouse management website. Where admin can add or remove their products. And also show top items",
+    "live": "https://pc-world-5e4fb.web.app/",
+    "client": "https://github.com/srdo96/warehouse-management-website-client-sid",
+    "server": "https://github.com/srdo96/warehouse-management-website-server-side"
+  },
+  {
+    "id": 3,
+    "img": ["https://i.ibb.co/W59pMFH/Pro-Trainer.png"],
+    "title": "Pro Trainer",
+    "func": [
+      "Implemented routing and dynamic routes using React Router",
+      "Created a meaningful 404 route",
+      "Implemented a private route to enroll service",
+      "Implemented responsiveness for mobile and pc"
+    ],
+    "type": "Independent Service Provider",
+    "desc": "It is an independent service provider's website. Where user can Log in. User can enroll for service.",
+    "live": "https://pro-trainer-15bba.web.app/",
+    "client": "https://github.com/srdo96/independent-service-provider"
+  }
+]
