@@ -1,7 +1,11 @@
 [
   {
     "id": 1,
-    "img": ["https://i.ibb.co/LzQR5wY/Alpha-Tools.png"],
+    "img": [
+      "https://i.ibb.co/LzQR5wY/Alpha-Tools.png",
+      "https://i.ibb.co/bP9qJZR/a1.png",
+      "https://i.ibb.co/jvPMvVF/a2.png"
+    ],
     "title": "Alpha Tools",
     "func": [
       "Implemented user interface using React and Tailwind CSS",
@@ -14,13 +18,33 @@
     ],
     "type": "Manufacturer Website",
     "desc": "It is a manufacturer's website. Where manufacturers can add or remove their products. Can confirm customer payment. And the customer can also buy products and pay.",
-    "live": "https://alpha-tools-c9d53.web.app/",
-    "client": "https://github.com/srdo96/manufacturer-website-client-side",
-    "server": "https://github.com/srdo96/manufacturer-website-server-side"
+    "link": [
+      { "Live Site": "https://alpha-tools-c9d53.web.app/" },
+      {
+        "client Side": "https://github.com/srdo96/manufacturer-website-client-side"
+      },
+      {
+        "Server Side": "https://github.com/srdo96/manufacturer-website-server-side"
+      }
+    ],
+    "tech": [
+      "React.js",
+      "React Router",
+      "React Query",
+      "Axios",
+      "Tailwind CSS",
+      " Express.js",
+      "MongoDB",
+      "Firebase"
+    ]
   },
   {
     "id": 2,
-    "img": ["https://i.ibb.co/9thttX5/Pc-World.png"],
+    "img": [
+      "https://i.ibb.co/F0KGYVT/Pc-World.png",
+      "https://i.ibb.co/SvvR6kT/p1.png",
+      "https://i.ibb.co/Cb5gV7T/p2.png"
+    ],
     "title": "PC World",
     "func": [
       "Built login system for authentication",
@@ -32,13 +56,32 @@
     ],
     "type": "Warehouse Management",
     "desc": "It is a warehouse management website. Where admin can add or remove their products. And also show top items",
-    "live": "https://pc-world-5e4fb.web.app/",
-    "client": "https://github.com/srdo96/warehouse-management-website-client-sid",
-    "server": "https://github.com/srdo96/warehouse-management-website-server-side"
+    "link": [
+      { "Live Site": "https://pc-world-5e4fb.web.app/" },
+      {
+        "client Side": "https://github.com/srdo96/warehouse-management-website-client-sid"
+      },
+      {
+        "Server Side": "https://github.com/srdo96/warehouse-management-website-server-side"
+      }
+    ],
+    "tech": [
+      "React.js",
+      " React Router",
+      "Tailwind CSS",
+      "JWT",
+      " Express.js",
+      "MongoDB",
+      "Firebase"
+    ]
   },
   {
     "id": 3,
-    "img": ["https://i.ibb.co/W59pMFH/Pro-Trainer.png"],
+    "img": [
+      "https://i.ibb.co/W59pMFH/Pro-Trainer.png",
+      "https://i.ibb.co/5h5yJCN/2022-06-11-01-09.png",
+      "https://i.ibb.co/ySD3xDc/2022-06-11-01-17.png"
+    ],
     "title": "Pro Trainer",
     "func": [
       "Implemented routing and dynamic routes using React Router",
@@ -48,7 +91,12 @@
     ],
     "type": "Independent Service Provider",
     "desc": "It is an independent service provider's website. Where user can Log in. User can enroll for service.",
-    "live": "https://pro-trainer-15bba.web.app/",
-    "client": "https://github.com/srdo96/independent-service-provider"
+    "link": [
+      { "Live Link": "https://pro-trainer-15bba.web.app/" },
+      {
+        "Client Side": "https://github.com/srdo96/independent-service-provider"
+      }
+    ],
+    "tech": ["React.js", "React Router", "Tailwind CSS", "Firebase"]
   }
 ]
