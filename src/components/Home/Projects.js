@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import alphaTools from "../../assets/projectsImg/alphaTools.png";
 import pcWorld from "../../assets/projectsImg/pcWorld.png";
@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="" id="projects">
       {/* title */}
-      <div className="relative flex  justify-center text-center pt-28 py-8 ">
+      <div className="relative flex  justify-center text-center py-8 ">
         <h2 className=" text-6xl lg:text-8xl text-light opacity-10  uppercase font-semibold ">
           Projects
         </h2>
@@ -17,7 +17,9 @@ const Projects = () => {
           <span className="w-20  border-emerald-500 mt-4 border-b border-4  block mx-auto"></span>
         </p>
       </div>
+
       {/* card */}
+
       {/* alphaTools */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32 mx-16 mt-10">
         <div class="card card-compact bg-base-100 shadow-xl border-2 border-red-500">
@@ -34,6 +36,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
         {/* pcWorld */}
         <div class="card card-compact bg-base-100 shadow-xl border-2 border-red-500 ">
           <figure>
@@ -49,6 +52,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
         {/* proTrainer */}
         <div class="card card-compact bg-base-100 shadow-xl border-2 border-red-500 ">
           <figure>

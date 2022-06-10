@@ -1,8 +1,6 @@
 import { useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useQuery } from "react-query";
-import { data } from "autoprefixer";
 import Loading from "../Loading/Loading";
 
 const Details = () => {
@@ -12,8 +10,8 @@ const Details = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // axios.get(`https://portfolio-5fd0e.web.app/projects.json`).then((data) => {
-    axios.get(`http://localhost:3000/projects.json`).then((data) => {
+    // axios.get(`http://localhost:3000/projects.json`).then((data) => {
+    axios.get(`https://portfolio-5fd0e.web.app/projects.json`).then((data) => {
       setProject(data.data[id - 1]);
       setLoading(false);
     });
@@ -27,7 +25,7 @@ const Details = () => {
     );
   }
   project.link.map((link) => console.log("link", Object.keys(link)));
-  console.log(project.link);
+
   return (
     <div>
       <div className=" flex flex-col justify-between max-w-xl px-4 mx-auto lg:pt-16 lg:flex-row md:px-8 lg:max-w-screen-xl">
@@ -55,7 +53,7 @@ const Details = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href={Object.values(link)}
-                  className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-accent hover:bg-accent-focus focus:shadow-md"
+                  className="inline-flex items-center justify-center h-12 px-6 mr-6 py-7 md:py-0 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-accent hover:bg-accent-focus focus:shadow-md"
                 >
                   {Object.keys(link)}
                 </a>
@@ -72,7 +70,7 @@ const Details = () => {
         </div>
       </div>
       <h1 className="text-4xl text-center mt-14">Used Technologies</h1>
-      <div className="mt-6 flex justify-center">
+      <div className="mt-6 mx-10 md:flex md:justify-center">
         {project.tech.map((tech) => (
           <div className=" inline-block m-2  px-3 border-cyan-600 border-2 border-solid rounded-lg  text-base font-medium uppercase text-center">
             {tech}

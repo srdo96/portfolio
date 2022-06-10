@@ -10,18 +10,28 @@ const NavBar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
           <li>
-            <HashLink smooth to="/#home">
+            <HashLink className="font-bold text-xl" smooth to="/#home">
               Home
             </HashLink>
           </li>
           <li>
-            <HashLink smooth to="/#projects">
+            <HashLink className="font-bold text-xl" smooth to="/#projects">
               Projects
             </HashLink>
           </li>
           <li>
-            <HashLink to="/#contact" smooth>
+            <HashLink className="font-bold text-xl" smooth to="/#about-me">
+              About Me
+            </HashLink>
+          </li>
+          <li>
+            <HashLink className="font-bold text-xl" to="/#contact" smooth>
               Contact Me
+            </HashLink>
+          </li>
+          <li>
+            <HashLink className="font-bold text-xl" to="/blog" smooth>
+              Blog
             </HashLink>
           </li>
         </ul>
@@ -50,16 +60,28 @@ const NavBar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52"
           >
             <li>
-              <HashLink to="/#home">Home</HashLink>
+              <HashLink className="font-bold text-xl" to="/#home">
+                Home
+              </HashLink>
             </li>
             <li>
-              <HashLink smooth to="/#projects">
+              <HashLink className="font-bold text-xl" smooth to="/#projects">
                 Projects
               </HashLink>
             </li>
             <li>
-              <HashLink to="/#contact" smooth>
+              <HashLink className="font-bold text-xl" to="/#contact" smooth>
+                About Me
+              </HashLink>
+            </li>
+            <li>
+              <HashLink className="font-bold text-xl" to="/#contact" smooth>
                 Contact Me
+              </HashLink>
+            </li>
+            <li>
+              <HashLink className="font-bold text-xl" to="/blog" smooth>
+                Blog
               </HashLink>
             </li>
           </ul>

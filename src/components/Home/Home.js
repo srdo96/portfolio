@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMe from "./AboutMe";
 import ContactMe from "./ContactMe";
 import Header from "./Header";
 import Projects from "./Projects";
@@ -8,6 +9,7 @@ const Home = () => {
     <div>
       <Header />
       <Projects />
+      <AboutMe />
       <ContactMe />
     </div>
   );
