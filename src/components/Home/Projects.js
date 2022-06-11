@@ -9,10 +9,10 @@ const Projects = () => {
     <div className="" id="projects">
       {/* title */}
       <div className="relative flex  justify-center text-center py-8 ">
-        <h2 className=" text-6xl lg:text-8xl text-light opacity-10  uppercase font-semibold ">
+        <h2 className=" text-5xl lg:text-8xl text-light opacity-10  uppercase font-semibold ">
           Projects
         </h2>
-        <p className="text-2xl text-black font-semibold absolute mt-4  w-96 self-center leading-3   mb-0">
+        <p className="text-xl lg:text-2xl text-black font-semibold absolute mt-4  w-96 self-center leading-3   mb-0">
           My Work
           <span className="w-20  border-emerald-500 mt-4 border-b border-4  block mx-auto"></span>
         </p>

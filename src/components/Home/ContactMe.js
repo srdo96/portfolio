@@ -40,10 +40,10 @@ const ContactMe = () => {
   return (
     <div>
       <div className="relative flex justify-center text-center py-16">
-        <h2 className="text-8xl text-light opacity-10  uppercase font-semibold ">
+        <h2 className="text-5xl md:text-8xl text-light opacity-10  uppercase font-semibold ">
           Contact Me
         </h2>
-        <p className="text-2xl text-black font-semibold absolute mt-4  w-96 self-center leading-3   mb-0">
+        <p className="text-xl md:text-2xl text-black font-semibold absolute mt-4  w-96 self-center leading-3   mb-0">
           Email Me
           <span className="w-20  border-emerald-500 mt-4 border-b border-4  block mx-auto"></span>
         </p>

@@ -72,7 +72,7 @@ const Details = () => {
       <h1 className="text-4xl text-center mt-14">Used Technologies</h1>
       <div className="mt-6 mx-10 md:flex md:justify-center">
         {project.tech.map((tech) => (
-          <div className=" inline-block m-2  px-3 border-cyan-600 border-2 border-solid rounded-lg  text-base font-medium uppercase text-center">
+          <div className=" inline-block m-2  px-3 border-purple-700 text-cyan-600 border-2 border-solid rounded-lg  text-base font-medium uppercase text-center">
             {tech}
           </div>
         ))}
